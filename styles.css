@@ -45,12 +45,12 @@ a { color: var(--brand); }
 
 /* Hero */
 .hero {
-  /* Fallback gradient shows until a header image is uploaded to assets/header.jpg.
-     Once present, the image sits under a translucent brand overlay for text contrast. */
+  /* Header image (assets/images/header.png) sits under a translucent brand overlay
+     for text contrast. Falls back to the solid brand color if the image is missing. */
   background-color: #0b3d67;
   background-image:
     linear-gradient(135deg, rgba(11, 61, 103, 0.82) 0%, rgba(11, 92, 173, 0.72) 55%, rgba(18, 96, 58, 0.78) 130%),
-    url("assets/header.jpg");
+    url("assets/images/header.png");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -146,6 +146,24 @@ figcaption { color: var(--muted); font-size: 0.9rem; margin-top: 10px; text-alig
 }
 .preview-fallback { margin-top: 12px; font-size: 0.92rem; }
 .preview-fallback a { font-weight: 600; }
+
+/* Coverage gallery */
+.coverage-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 1em 0 1.5em;
+}
+.coverage-gallery figure { margin: 0; }
+.coverage-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  background: #0b1622;
+}
 
 /* Format list */
 .format-list { padding-left: 1.2em; }

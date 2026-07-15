@@ -1,19 +1,30 @@
 # assets
 
-Put images used by the site here.
+Media used by the site.
+
+```
+assets/
+├── images/   ← committed, served on the public page
+└── videos/   ← local only (git-ignored, too large for the repo)
+```
 
 ## Header image
 
-Upload your header/banner image as:
+The page header background is:
 
-    assets/header.jpg
+    assets/images/header.png
 
-It automatically appears as the background of the page header (behind the title),
-with a translucent brand overlay applied for text readability. No code change needed —
-just add the file with exactly this name.
+Replace that file (keep the same name) to change the header. It appears behind the
+title with a translucent brand overlay for text readability — no code change needed.
 
-- Recommended: a wide landscape image (e.g. 1920×800 or wider), JPG or PNG.
-- If you use a different name or format, update the `url("assets/header.jpg")` line in
-  `../styles.css` (the `.hero` rule) to match.
+- Recommended: a wide landscape image (e.g. 1920×800 or wider).
+- To use a different name/format, update the `url("assets/images/header.png")` line in
+  `../styles.css` (the `.hero` rule).
 
-Until `header.jpg` is present, the header falls back to a solid brand-colored gradient.
+Until an image is present, the header falls back to a solid brand-colored gradient.
+
+## Videos
+
+`assets/videos/` is **git-ignored** — files there stay on your machine and are not
+published (kept out because large binaries bloat the repo and slow the page). If you
+later want a video on the site, compress it small or host it externally and embed it.
