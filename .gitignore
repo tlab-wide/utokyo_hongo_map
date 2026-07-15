@@ -1,0 +1,8 @@
+# Maintainer/backend files — kept locally, NOT part of the public data repo.
+apps-script/
+DEPLOY.md
+docs/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
