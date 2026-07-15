@@ -4,16 +4,16 @@ message: >-
   If you use this dataset, please cite it using the metadata from this file.
 type: dataset
 authors:
-  - name: >-
-      Graduate Program for Social ICT Global Creative Leaders (GCL),
-      The University of Tokyo
+  - family-names: Tsukada
+    given-names: Manabu
+    affiliation: "Tsukada Laboratory, The University of Tokyo"
     website: "https://tlab.hongo.wide.ad.jp/"
 abstract: >-
   A 3D point cloud covering the entire ~4 km road network of the University of
   Tokyo's Hongo campus. The data were scanned in September 2015 as part of the
   Graduate Program for Social ICT Global Creative Leaders (GCL), using the mobile
-  mapping system of Aisan Technology Co., Ltd. Distributed as colored and
-  uncolored point clouds in PCD and e57 formats.
+  mapping system of Aisan Technology Co., Ltd. Distributed by the Tsukada Laboratory,
+  The University of Tokyo, as colored and uncolored point clouds in PCD and e57 formats.
 keywords:
   - point cloud
   - open data

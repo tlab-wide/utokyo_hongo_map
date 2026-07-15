@@ -22,6 +22,7 @@ Hongo campus** of the University of Tokyo. Published **August 2020**.
 
 ## Credits
 
+- **Laboratory:** Tsukada Laboratory, The University of Tokyo
 - **Program:** Graduate Program for Social ICT Global Creative Leaders (GCL), University of Tokyo
 - **Scanning:** Aisan Technology Co., Ltd. (mobile mapping system), September 2015
 - **Online preview:** https://tlab.hongo.wide.ad.jp/maps/hongo_pointcloud/
@@ -31,10 +32,20 @@ Hongo campus** of the University of Tokyo. Published **August 2020**.
 
 A machine-readable citation is in [`CITATION.cff`](CITATION.cff) ("Cite this repository").
 
-> Graduate Program for Social ICT Global Creative Leaders (GCL), The University of Tokyo.
-> *UTokyo Hongo Campus Point Cloud Map* [dataset]. Data acquired September 2015 with the
-> mobile mapping system of Aisan Technology Co., Ltd. Published 2020.
-> https://tlab.hongo.wide.ad.jp/maps/hongo_pointcloud/
+> Tsukada, M. (2020). *UTokyo Hongo Campus Point Cloud Map* [dataset]. Tsukada Laboratory,
+> The University of Tokyo. Data acquired September 2015 with the mobile mapping system of
+> Aisan Technology Co., Ltd. https://tlab.hongo.wide.ad.jp/maps/hongo_pointcloud/
+
+```bibtex
+@misc{tsukada_utokyo_hongo_pointcloud_2020,
+  title        = {UTokyo Hongo Campus Point Cloud Map},
+  author       = {Tsukada, Manabu},
+  year         = {2020},
+  organization = {Tsukada Laboratory, The University of Tokyo},
+  note         = {Data acquired September 2015 with the mobile mapping system of Aisan Technology Co., Ltd.},
+  howpublished = {\url{https://tlab.hongo.wide.ad.jp/maps/hongo_pointcloud/}}
+}
+```
 
 ## License
 
