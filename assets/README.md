@@ -26,5 +26,8 @@ Until an image is present, the header falls back to a solid brand-colored gradie
 ## Videos
 
 `assets/videos/` is **git-ignored** — files there stay on your machine and are not
-published (kept out because large binaries bloat the repo and slow the page). If you
-later want a video on the site, compress it small or host it externally and embed it.
+published (kept out because large binaries bloat the repo and slow the page).
+
+The video shown on the site is hosted on YouTube and embedded in `../index.html`
+(the "Preview" section): https://youtu.be/55ZpqTAqM7c — so the local `.mp4` is just
+a backup and does not need to be committed.
