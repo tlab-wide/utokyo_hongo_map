@@ -24,7 +24,7 @@ Hongo campus** of the University of Tokyo. Published **August 2020**.
 
 - **Program:** Graduate Program for Social ICT Global Creative Leaders (GCL), University of Tokyo
 - **Scanning:** Aisan Technology Co., Ltd. (mobile mapping system), September 2015
-- **Project page:** https://tlab.hongo.wide.ad.jp/maps/hongo_pointcloud/
+- **Online preview:** https://tlab.hongo.wide.ad.jp/maps/hongo_pointcloud/
 - **Announcement:** https://tlab.hongo.wide.ad.jp/portfolio/utokyo-hongo-campus-point-cloud-map/
 
 ## Citation
